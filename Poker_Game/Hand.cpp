@@ -1,5 +1,11 @@
 #include "Hand.h"
 
+// document this function
+
+/// <summary>
+/// This method adds a card to the hand.
+/// </summary>
+/// <param name="card">The card to add to the hand.</param>
 void Hand::addCard(const Card& card) {
 	cards.push_back(card);
 }

@@ -6,13 +6,19 @@ Card::Card(unsigned int number, Suit suit)
     this->suit = suit;
 }
 
-// Getters and Setters
+// Getters definitions
+
 unsigned int Card::getNumber() const { return number; }
 Suit Card::getSuit() const { return suit; }
 
 // Methods
 
-// Get card number
+/// <summary>
+/// Returns the string representation of the card number
+/// (e.g., "A" for Ace, "J" for Jack, "Q" for Queen, "K" for King
+/// if not, converts the input number ranging from 1 to 10 to a string).
+/// </summary>
+/// <returns>string</returns>
 std::string Card::getCardNumber() const
 {
     switch (number)
@@ -30,7 +36,11 @@ std::string Card::getCardNumber() const
     }
 }
 
-// Get card suit symbol
+/// <summary>
+/// Returns the string representation of the card suit 
+/// (e.g. "♥" for HEARTS, "♦" for DIAMONDS, "♣" for CLUBS and "♠" for SPADES).
+/// Returns an empty string in case of no match.
+/// </summary>
 std::string Card::getCardTypeSymbol() const
 {
 	switch (suit)
@@ -48,7 +58,9 @@ std::string Card::getCardTypeSymbol() const
 	}
 }
 
-// Method to draw card layout and store in vector
+/// <summary>
+// Constructs and returns a vector of strings representing the card layout.
+/// </summary>
 std::vector<std::string> Card::drawCardLayout() const
 {
     std::vector<std::string> card;

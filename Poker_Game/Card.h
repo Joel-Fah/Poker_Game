@@ -13,7 +13,6 @@ enum class Suit {
 	SPADES,
 };
 
-//  Define a class Card with the attributes number and type and the method display
 class Card
 {
 private:
@@ -23,11 +22,15 @@ private:
 public:
     Card(unsigned int number, Suit suit);
     virtual ~Card();
+
+    // Methods
+
     std::string getCardNumber() const;
     std::vector<std::string> drawCardLayout() const;
     std::string getCardTypeSymbol() const;
 
-    // Getter and setters declaration
+    // Getters declarations
+
     unsigned int getNumber() const;
     Suit getSuit() const;
 };

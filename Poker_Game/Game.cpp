@@ -6,6 +6,9 @@ Game::Game(int numPlayers) {
     }
 }
 
+/// <summary>
+/// This method starts the game by shuffling the deck, dealing cards to the players, and dealing cards to the computer.
+/// </summary>
 void Game::startGame() {
     int numberOfCardsDeal = 3;
     computer.shuffleDeck(deck);
@@ -22,6 +25,9 @@ void Game::startGame() {
     }
 }
 
+/// <summary>
+/// This method displays the cards of each player and the computer.
+/// </summary>
 void Game::displayPlayersCards() {
     for (size_t i = 0; i < players.size(); ++i) {
         std::cout << "Player " << i + 1 << "'s hand:\n";
@@ -33,6 +39,10 @@ void Game::displayPlayersCards() {
     displayHand(computer.getHand());
 }
 
+/// <summary>
+/// This method displays the cards of a hand side by side.
+/// </summary>
+/// <param name="cards">The cards to display.</param>
 void Game::displayHand(const Hand& hand) {
     const auto& cards = hand.getCards();
 
