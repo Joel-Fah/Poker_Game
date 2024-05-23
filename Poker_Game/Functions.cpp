@@ -9,12 +9,12 @@ unsigned int mainMenu()
 {
     int choice;
     // Display main menu options and get user choice enclosed in a box pattern made of + - | characters
-    std::cout << "+-----------------------------+" << "\n";
-    std::cout << "| Poker Game - Main Menu      |" << "\n";
-    std::cout << "+-----------------------------+" << "\n";
-    std::cout << "| 1. Launch a new game        |" << "\n";
-    std::cout << "| 2. Exit                     |" << "\n";
-    std::cout << "+-----------------------------+" << "\n";
+    std::cout << "+----------------------------------------+" << "\n";
+    std::cout << "| Poker Game - Main Menu                 |" << "\n";
+    std::cout << "+----------------------------------------+" << "\n";
+    std::cout << "| 1. Launch a new game                   |" << "\n";
+    std::cout << "| 2. Exit                                |" << "\n";
+    std::cout << "+----------------------------------------+" << "\n";
     std::cout << "Enter your choice >>> ";
     std::cin >> choice;
 
