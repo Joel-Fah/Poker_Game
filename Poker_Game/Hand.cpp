@@ -14,10 +14,18 @@ const std::vector<Card>& Hand::getCards() const {
     return cards;
 }
 
+/// <summary>
+/// This method checks if the hand is a flush.
+/// </summary>
+/// <returns>True if the hand is a flush, false otherwise.</returns>
 bool Hand::isFlush() const {
     return cards[0].getSuit() == cards[1].getSuit() && cards[1].getSuit() == cards[2].getSuit();
 }
 
+/// <summary>
+/// This method checks if the hand is a straight.
+/// </summary>
+/// <returns>True if the hand is a straight, false otherwise.</returns>
 bool Hand::isStraight() const {
     std::vector<unsigned int> numbers = { cards[0].getNumber(), cards[1].getNumber(), cards[2].getNumber() };
     std::sort(numbers.begin(), numbers.end());
@@ -25,10 +33,18 @@ bool Hand::isStraight() const {
         (numbers[0] == 1 && numbers[1] == 12 && numbers[2] == 13); // Handling A, K, Q
 }
 
+/// <summary>
+/// This method checks if the hand is a Three of a kind.
+/// </summary>
+/// <returns>True if the hand is a Three of a kind, false otherwise.</returns>
 bool Hand::isThreeOfAKind() const {
     return cards[0].getNumber() == cards[1].getNumber() && cards[1].getNumber() == cards[2].getNumber();
 }
 
+/// <summary>
+/// This method checks if the hand is a pair.
+/// </summary>
+/// <returns>True if the hand is a pair, false otherwise.</returns>
 bool Hand::isPair() const {
     std::map<int, int> countMap;
     for (const auto& card : cards) {
@@ -37,6 +53,10 @@ bool Hand::isPair() const {
     return countMap.size() == 2; // One pair and one single card
 }
 
+/// <summary>
+/// This method checks if the hand is a mini royal.
+/// </summary>
+/// <returns>True if the hand is a mini royal, false otherwise.</returns>
 bool Hand::isMiniRoyal() const {
     std::vector<unsigned int> numbers = { cards[0].getNumber(), cards[1].getNumber(), cards[2].getNumber() };
     std::sort(numbers.begin(), numbers.end());
@@ -79,6 +99,14 @@ std::string Hand::handRankingToString(HandRanking ranking) {
     return "Unknown";
 }
 
+// document this function
+
+/// <summary>
+/// This method compares two hands and determines the winner.
+/// </summary>
+/// <param name="playerHand">The player's hand.</param>
+/// <param name="dealerHand">The dealer's hand.</param>
+/// <returns>1 if the player wins, -1 if the dealer wins, 0 if it's a tie.</returns>
 int Hand::compareHands(const Hand& playerHand, const Hand& dealerHand) {
     int playerRanking = getHandRankingValue(playerHand.getHandRanking());
     int dealerRanking = getHandRankingValue(dealerHand.getHandRanking());

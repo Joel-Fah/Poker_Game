@@ -7,7 +7,6 @@
 #define CLEAR "clear"
 #endif
 
-#include "Card.h"
 #include "Functions.h"
 #include "Game.h"
 

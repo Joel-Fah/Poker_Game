@@ -59,6 +59,11 @@ void Game::displayHand(const Hand& hand) {
 	std::cout << "\n\n";
 }
 
+// document this function
+
+/// <summary>
+/// This method gets a specific result from comparing hands and displaying the results.
+/// </summary>
 void Game::determineWinners() {
     std::cout << "\n+----------------------------------------+\n";
     std::cout << "| Game Results:                          |\n";

@@ -10,5 +10,6 @@
 #endif
 
 // Function declarations
+
 unsigned int mainMenu();
 void displayCardsSideBySide(const std::vector<Card>& cards);
