@@ -5,4 +5,7 @@ The project is about designing a simple console-based card gambling system for a
 
 You can consult the full documentation PDF file within the project files together with the UML design file (draw.io). 
 
-Will be kind enough to leave a heart 😊
+## Installation
+It will be preferable to clone and open the project with Visual Studio and then run the application from there.
+
+Will be kind enough to leave a star 😊
