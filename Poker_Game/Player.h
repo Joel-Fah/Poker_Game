@@ -7,7 +7,6 @@ private:
 
 public:
     Player();
-
     void receiveCard(const Card& card);
     Hand& getHand();
 };

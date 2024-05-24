@@ -1,7 +1,5 @@
 #include "Hand.h"
 
-// document this function
-
 /// <summary>
 /// This method adds a card to the hand.
 /// </summary>

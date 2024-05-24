@@ -28,6 +28,7 @@ private:
 public:
     void addCard(const Card& card);
     const std::vector<Card>& getCards() const;
+
     HandRanking getHandRanking() const;
     static int getHandRankingValue(HandRanking ranking);
     static std::string handRankingToString(HandRanking ranking);

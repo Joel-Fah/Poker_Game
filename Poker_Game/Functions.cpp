@@ -24,8 +24,6 @@ unsigned int mainMenu()
     return choice;
 }
 
-// document this function
-
 /// <summary>
 /// Collects the card display strings for each card.
 /// Iterates through each line of the card displays and prints them side by side.

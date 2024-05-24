@@ -35,8 +35,8 @@ void Game::displayPlayersCards() {
     }
 
     // Display the computer's (NPC) hand
-    std::cout << "NPC's hand:\n";
-    displayHand(computer.getHand());
+    // std::cout << "NPC's hand:\n";
+    // displayHand(computer.getHand());
 }
 
 /// <summary>
@@ -49,17 +49,16 @@ void Game::displayHand(const Hand& hand) {
 	// Display cards side by side
 	displayCardsSideBySide(cards);
 
+
     // Display Hand ranking
     HandRanking ranking = hand.getHandRanking();
     std::cout << "Hand Ranking: " << Hand::handRankingToString(ranking) << "\n";
     std::cout << "Points: " << Hand::getHandRankingValue(ranking) << "\n";
 
-	std::cout << "\n";
-	std::cout << "+----------------------------------------+";
-	std::cout << "\n\n";
+    std::cout << "\n";
+    std::cout << "+----------------------------------------+";
+    std::cout << "\n\n";
 }
-
-// document this function
 
 /// <summary>
 /// This method gets a specific result from comparing hands and displaying the results.
