@@ -1,0 +1,292 @@
+<mxfile host="Electron" modified="2024-05-24T09:21:23.837Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.4.6 Chrome/124.0.6367.207 Electron/30.0.6 Safari/537.36" etag="H7Ot773empYDAvAKaAmN" version="24.4.6" type="device">
+  <diagram name="Page-1" id="dCRq9eFScEj7lCMYfbPJ">
+    <mxGraphModel dx="1238" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="n6sfb7qWeLQAH36KSjfL-6" value="&lt;font style=&quot;font-size: 20px;&quot; face=&quot;Urbanist&quot;&gt;Card&lt;/font&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="840" y="80" width="300" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="n6sfb7qWeLQAH36KSjfL-7" value="+ number: &lt;font face=&quot;JetBrains Mono&quot;&gt;unsigned int&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Urbanist;fontSize=16;" parent="n6sfb7qWeLQAH36KSjfL-6" vertex="1">
+          <mxGeometry y="40" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="n6sfb7qWeLQAH36KSjfL-11" value="+ suit: &lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=JetBrains+Mono&quot; face=&quot;JetBrains Mono&quot;&gt;Suit&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Urbanist;fontSize=16;" parent="n6sfb7qWeLQAH36KSjfL-6" vertex="1">
+          <mxGeometry y="66" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="n6sfb7qWeLQAH36KSjfL-8" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="n6sfb7qWeLQAH36KSjfL-6" vertex="1">
+          <mxGeometry y="92" width="300" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="n6sfb7qWeLQAH36KSjfL-9" value="+ getCardNumber(): &lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=JetBrains+Mono&quot; face=&quot;JetBrains Mono&quot;&gt;string&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Urbanist;fontSize=16;" parent="n6sfb7qWeLQAH36KSjfL-6" vertex="1">
+          <mxGeometry y="100" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="n6sfb7qWeLQAH36KSjfL-10" value="+ drawCardLayout(): &lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=JetBrains+Mono&quot; face=&quot;JetBrains Mono&quot;&gt;vector&amp;lt;string&amp;gt;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Urbanist;fontSize=16;" parent="n6sfb7qWeLQAH36KSjfL-6" vertex="1">
+          <mxGeometry y="126" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="n6sfb7qWeLQAH36KSjfL-12" value="+ getCardTypeSymbol(): &lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=JetBrains+Mono&quot; face=&quot;JetBrains Mono&quot;&gt;string&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Urbanist;fontSize=16;" parent="n6sfb7qWeLQAH36KSjfL-6" vertex="1">
+          <mxGeometry y="152" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="n6sfb7qWeLQAH36KSjfL-13" value="+ getNumber(): &lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=JetBrains+Mono&quot; face=&quot;JetBrains Mono&quot;&gt;unsigned int&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Urbanist;fontSize=16;" parent="n6sfb7qWeLQAH36KSjfL-6" vertex="1">
+          <mxGeometry y="178" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="n6sfb7qWeLQAH36KSjfL-14" value="+ getSuit(): &lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=JetBrains+Mono&quot; face=&quot;JetBrains Mono&quot;&gt;Suit&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Urbanist;fontSize=16;" parent="n6sfb7qWeLQAH36KSjfL-6" vertex="1">
+          <mxGeometry y="204" width="300" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="v_oWH6om_B8GSnTLb2Kj-85" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=diamondThin;endFill=1;" parent="1" source="v_oWH6om_B8GSnTLb2Kj-13" target="v_oWH6om_B8GSnTLb2Kj-73" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v_oWH6om_B8GSnTLb2Kj-86" value="&lt;span style=&quot;font-family: Urbanist; font-size: 16px;&quot;&gt;contain&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontStyle=2" parent="v_oWH6om_B8GSnTLb2Kj-85" vertex="1" connectable="0">
+          <mxGeometry x="0.0144" y="-4" relative="1" as="geometry">
+            <mxPoint y="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v_oWH6om_B8GSnTLb2Kj-100" value="&lt;span style=&quot;font-family: Urbanist; font-size: 16px;&quot;&gt;0, 4&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="v_oWH6om_B8GSnTLb2Kj-85" vertex="1" connectable="0">
+          <mxGeometry x="-0.9469" y="-4" relative="1" as="geometry">
+            <mxPoint x="6" y="8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v_oWH6om_B8GSnTLb2Kj-101" value="&lt;span style=&quot;font-family: Urbanist; font-size: 16px;&quot;&gt;1, 1&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="v_oWH6om_B8GSnTLb2Kj-85" vertex="1" connectable="0">
+          <mxGeometry x="-0.9469" y="-4" relative="1" as="geometry">
+            <mxPoint x="471" y="42" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v_oWH6om_B8GSnTLb2Kj-13" value="&lt;font style=&quot;font-size: 20px;&quot; face=&quot;Urbanist&quot;&gt;Player&lt;/font&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="640" width="300" height="136" as="geometry" />
+        </mxCell>
+        <mxCell id="v_oWH6om_B8GSnTLb2Kj-14" value="+ hand: &lt;font face=&quot;JetBrains Mono&quot;&gt;Hand&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Urbanist;fontSize=16;" parent="v_oWH6om_B8GSnTLb2Kj-13" vertex="1">
+          <mxGeometry y="40" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="v_oWH6om_B8GSnTLb2Kj-16" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="v_oWH6om_B8GSnTLb2Kj-13" vertex="1">
+          <mxGeometry y="66" width="300" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="v_oWH6om_B8GSnTLb2Kj-17" value="+ receiveCard(Card card): &lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=JetBrains+Mono&quot; face=&quot;JetBrains Mono&quot;&gt;void&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Urbanist;fontSize=16;" parent="v_oWH6om_B8GSnTLb2Kj-13" vertex="1">
+          <mxGeometry y="74" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="v_oWH6om_B8GSnTLb2Kj-21" value="+ getHand(): &lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=JetBrains+Mono&quot; face=&quot;JetBrains Mono&quot;&gt;Hand&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Urbanist;fontSize=16;" parent="v_oWH6om_B8GSnTLb2Kj-13" vertex="1">
+          <mxGeometry y="100" width="300" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="v_oWH6om_B8GSnTLb2Kj-76" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;startArrow=diamondThin;startFill=1;targetPerimeterSpacing=0;sourcePerimeterSpacing=0;" parent="1" source="v_oWH6om_B8GSnTLb2Kj-45" target="n6sfb7qWeLQAH36KSjfL-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v_oWH6om_B8GSnTLb2Kj-77" value="&lt;font face=&quot;Urbanist&quot; style=&quot;font-size: 16px;&quot;&gt;contain&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontStyle=2" parent="v_oWH6om_B8GSnTLb2Kj-76" vertex="1" connectable="0">
+          <mxGeometry x="0.0081" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v_oWH6om_B8GSnTLb2Kj-94" value="&lt;font style=&quot;font-size: 16px;&quot; face=&quot;Urbanist&quot;&gt;1, 1&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="v_oWH6om_B8GSnTLb2Kj-76" vertex="1" connectable="0">
+          <mxGeometry x="-0.9075" y="3" relative="1" as="geometry">
+            <mxPoint y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v_oWH6om_B8GSnTLb2Kj-95" value="&lt;font style=&quot;font-size: 16px;&quot; face=&quot;Urbanist&quot;&gt;0, 3&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="v_oWH6om_B8GSnTLb2Kj-76" vertex="1" connectable="0">
+          <mxGeometry x="-0.9075" y="3" relative="1" as="geometry">
+            <mxPoint x="335" y="-24" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v_oWH6om_B8GSnTLb2Kj-22" value="&lt;font style=&quot;font-size: 20px;&quot; face=&quot;Urbanist&quot;&gt;Hand&lt;/font&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="40" width="430" height="384" as="geometry" />
+        </mxCell>
+        <mxCell id="v_oWH6om_B8GSnTLb2Kj-23" value="+ cards: &lt;font face=&quot;JetBrains Mono&quot;&gt;vector&amp;lt;Card&amp;gt;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Urbanist;fontSize=16;" parent="v_oWH6om_B8GSnTLb2Kj-22" vertex="1">
+          <mxGeometry y="40" width="430" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="v_oWH6om_B8GSnTLb2Kj-24" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="v_oWH6om_B8GSnTLb2Kj-22" vertex="1">
+          <mxGeometry y="66" width="430" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="v_oWH6om_B8GSnTLb2Kj-25" value="+ isFlush():&amp;nbsp;&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=JetBrains+Mono&quot; face=&quot;JetBrains Mono&quot;&gt;bool&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Urbanist;fontSize=16;" parent="v_oWH6om_B8GSnTLb2Kj-22" vertex="1">
+          <mxGeometry y="74" width="430" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="v_oWH6om_B8GSnTLb2Kj-42" value="+ isStraight():&amp;nbsp;&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=JetBrains+Mono&quot; face=&quot;JetBrains Mono&quot;&gt;bool&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Urbanist;fontSize=16;" parent="v_oWH6om_B8GSnTLb2Kj-22" vertex="1">
+          <mxGeometry y="100" width="430" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="v_oWH6om_B8GSnTLb2Kj-43" value="+ isThreeOfAKind():&amp;nbsp;&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=JetBrains+Mono&quot; face=&quot;JetBrains Mono&quot;&gt;bool&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Urbanist;fontSize=16;" parent="v_oWH6om_B8GSnTLb2Kj-22" vertex="1">
+          <mxGeometry y="126" width="430" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="v_oWH6om_B8GSnTLb2Kj-44" value="+ isPair():&amp;nbsp;&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=JetBrains+Mono&quot; face=&quot;JetBrains Mono&quot;&gt;bool&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Urbanist;fontSize=16;" parent="v_oWH6om_B8GSnTLb2Kj-22" vertex="1">
+          <mxGeometry y="152" width="430" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="v_oWH6om_B8GSnTLb2Kj-45" value="+ isMiniRoyal():&amp;nbsp;&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=JetBrains+Mono&quot; face=&quot;JetBrains Mono&quot;&gt;bool&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Urbanist;fontSize=16;" parent="v_oWH6om_B8GSnTLb2Kj-22" vertex="1">
+          <mxGeometry y="178" width="430" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="v_oWH6om_B8GSnTLb2Kj-41" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="v_oWH6om_B8GSnTLb2Kj-22" vertex="1">
+          <mxGeometry y="210" width="430" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="v_oWH6om_B8GSnTLb2Kj-46" value="+ addCard(Card card):&amp;nbsp;&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=JetBrains+Mono&quot; face=&quot;JetBrains Mono&quot;&gt;void&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Urbanist;fontSize=16;" parent="v_oWH6om_B8GSnTLb2Kj-22" vertex="1">
+          <mxGeometry y="218" width="430" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="v_oWH6om_B8GSnTLb2Kj-47" value="+ getCards():&amp;nbsp;&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=JetBrains+Mono&quot; face=&quot;JetBrains Mono&quot;&gt;vector&amp;lt;Card&amp;gt;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Urbanist;fontSize=16;" parent="v_oWH6om_B8GSnTLb2Kj-22" vertex="1">
+          <mxGeometry y="244" width="430" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="v_oWH6om_B8GSnTLb2Kj-48" value="+ getHandRanking():&amp;nbsp;&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=JetBrains+Mono&quot; face=&quot;JetBrains Mono&quot;&gt;HandRanking&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Urbanist;fontSize=16;" parent="v_oWH6om_B8GSnTLb2Kj-22" vertex="1">
+          <mxGeometry y="270" width="430" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="v_oWH6om_B8GSnTLb2Kj-49" value="+ getHandRankingValue(HandRanking ranking):&amp;nbsp;&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=JetBrains+Mono&quot; face=&quot;JetBrains Mono&quot;&gt;int&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Urbanist;fontSize=16;" parent="v_oWH6om_B8GSnTLb2Kj-22" vertex="1">
+          <mxGeometry y="296" width="430" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="v_oWH6om_B8GSnTLb2Kj-50" value="+ handRankingToString(HandRanking ranking):&amp;nbsp;&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=JetBrains+Mono&quot; face=&quot;JetBrains Mono&quot;&gt;string&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Urbanist;fontSize=16;" parent="v_oWH6om_B8GSnTLb2Kj-22" vertex="1">
+          <mxGeometry y="322" width="430" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="v_oWH6om_B8GSnTLb2Kj-26" value="+ compareHands(Hand playerHand, Hand dealerHand): &lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=JetBrains+Mono&quot; face=&quot;JetBrains Mono&quot;&gt;int&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Urbanist;fontSize=16;" parent="v_oWH6om_B8GSnTLb2Kj-22" vertex="1">
+          <mxGeometry y="348" width="430" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="v_oWH6om_B8GSnTLb2Kj-51" value="&lt;font style=&quot;font-size: 20px;&quot; face=&quot;Urbanist&quot;&gt;NPC&lt;/font&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="850" width="320" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="v_oWH6om_B8GSnTLb2Kj-54" value="+ shuffleDeck(Deck deck): &lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=JetBrains+Mono&quot; face=&quot;JetBrains Mono&quot;&gt;void&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Urbanist;fontSize=16;" parent="v_oWH6om_B8GSnTLb2Kj-51" vertex="1">
+          <mxGeometry y="40" width="320" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="v_oWH6om_B8GSnTLb2Kj-55" value="+ dealCard(Player player, Deck deck): &lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=JetBrains+Mono&quot; face=&quot;JetBrains Mono&quot;&gt;void&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Urbanist;fontSize=16;" parent="v_oWH6om_B8GSnTLb2Kj-51" vertex="1">
+          <mxGeometry y="66" width="320" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="v_oWH6om_B8GSnTLb2Kj-83" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=diamondThin;endFill=1;" parent="1" source="v_oWH6om_B8GSnTLb2Kj-58" target="v_oWH6om_B8GSnTLb2Kj-69" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v_oWH6om_B8GSnTLb2Kj-84" value="&lt;span style=&quot;font-family: Urbanist; font-size: 16px;&quot;&gt;manage&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontStyle=2" parent="v_oWH6om_B8GSnTLb2Kj-83" vertex="1" connectable="0">
+          <mxGeometry x="-0.0705" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v_oWH6om_B8GSnTLb2Kj-102" value="&lt;span style=&quot;font-family: Urbanist; font-size: 16px;&quot;&gt;0, 1&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="v_oWH6om_B8GSnTLb2Kj-83" vertex="1" connectable="0">
+          <mxGeometry x="-0.801" y="1" relative="1" as="geometry">
+            <mxPoint x="8" y="-17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v_oWH6om_B8GSnTLb2Kj-103" value="&lt;span style=&quot;font-family: Urbanist; font-size: 16px;&quot;&gt;1, 1&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="v_oWH6om_B8GSnTLb2Kj-83" vertex="1" connectable="0">
+          <mxGeometry x="-0.801" y="1" relative="1" as="geometry">
+            <mxPoint x="86" y="137" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v_oWH6om_B8GSnTLb2Kj-56" value="&lt;font style=&quot;font-size: 20px;&quot; face=&quot;Urbanist&quot;&gt;Deck&lt;/font&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="420" y="470" width="300" height="162" as="geometry" />
+        </mxCell>
+        <mxCell id="v_oWH6om_B8GSnTLb2Kj-57" value="+ cards: &lt;font face=&quot;JetBrains Mono&quot;&gt;vector&amp;lt;Card&amp;gt;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Urbanist;fontSize=16;" parent="v_oWH6om_B8GSnTLb2Kj-56" vertex="1">
+          <mxGeometry y="40" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="v_oWH6om_B8GSnTLb2Kj-58" value="+ suit: &lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=JetBrains+Mono&quot; face=&quot;JetBrains Mono&quot;&gt;Suit&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Urbanist;fontSize=16;" parent="v_oWH6om_B8GSnTLb2Kj-56" vertex="1">
+          <mxGeometry y="66" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="v_oWH6om_B8GSnTLb2Kj-59" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="v_oWH6om_B8GSnTLb2Kj-56" vertex="1">
+          <mxGeometry y="92" width="300" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="v_oWH6om_B8GSnTLb2Kj-63" value="+ shuffle(): &lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=JetBrains+Mono&quot; face=&quot;JetBrains Mono&quot;&gt;void&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Urbanist;fontSize=16;" parent="v_oWH6om_B8GSnTLb2Kj-56" vertex="1">
+          <mxGeometry y="100" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="v_oWH6om_B8GSnTLb2Kj-64" value="+ drawCard(): &lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=JetBrains+Mono&quot; face=&quot;JetBrains Mono&quot;&gt;Card&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Urbanist;fontSize=16;" parent="v_oWH6om_B8GSnTLb2Kj-56" vertex="1">
+          <mxGeometry y="126" width="300" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="v_oWH6om_B8GSnTLb2Kj-65" value="&lt;font style=&quot;font-size: 20px;&quot; face=&quot;Urbanist&quot;&gt;Game&lt;/font&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="850" y="560" width="300" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="v_oWH6om_B8GSnTLb2Kj-66" value="+ computer: &lt;font face=&quot;JetBrains Mono&quot;&gt;NPC&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Urbanist;fontSize=16;" parent="v_oWH6om_B8GSnTLb2Kj-65" vertex="1">
+          <mxGeometry y="40" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="v_oWH6om_B8GSnTLb2Kj-71" value="+ players: &lt;font face=&quot;JetBrains Mono&quot;&gt;vector&amp;lt;Player&amp;gt;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Urbanist;fontSize=16;" parent="v_oWH6om_B8GSnTLb2Kj-65" vertex="1">
+          <mxGeometry y="66" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="v_oWH6om_B8GSnTLb2Kj-67" value="+ deck: &lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=JetBrains+Mono&quot; face=&quot;JetBrains Mono&quot;&gt;Deck&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Urbanist;fontSize=16;" parent="v_oWH6om_B8GSnTLb2Kj-65" vertex="1">
+          <mxGeometry y="92" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="v_oWH6om_B8GSnTLb2Kj-68" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="v_oWH6om_B8GSnTLb2Kj-65" vertex="1">
+          <mxGeometry y="118" width="300" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="v_oWH6om_B8GSnTLb2Kj-69" value="+ startGame(): &lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=JetBrains+Mono&quot; face=&quot;JetBrains Mono&quot;&gt;void&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Urbanist;fontSize=16;" parent="v_oWH6om_B8GSnTLb2Kj-65" vertex="1">
+          <mxGeometry y="126" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="v_oWH6om_B8GSnTLb2Kj-72" value="+ displayPlayersCards(): &lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=JetBrains+Mono&quot; face=&quot;JetBrains Mono&quot;&gt;void&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Urbanist;fontSize=16;" parent="v_oWH6om_B8GSnTLb2Kj-65" vertex="1">
+          <mxGeometry y="152" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="v_oWH6om_B8GSnTLb2Kj-73" value="+ displayHand(Hand hand): &lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=JetBrains+Mono&quot; face=&quot;JetBrains Mono&quot;&gt;void&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Urbanist;fontSize=16;" parent="v_oWH6om_B8GSnTLb2Kj-65" vertex="1">
+          <mxGeometry y="178" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="v_oWH6om_B8GSnTLb2Kj-70" value="+ determineWinners(): &lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=JetBrains+Mono&quot; face=&quot;JetBrains Mono&quot;&gt;Card&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Urbanist;fontSize=16;" parent="v_oWH6om_B8GSnTLb2Kj-65" vertex="1">
+          <mxGeometry y="204" width="300" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="v_oWH6om_B8GSnTLb2Kj-75" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.531;entryY=0.99;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=block;endFill=0;" parent="1" source="v_oWH6om_B8GSnTLb2Kj-51" target="v_oWH6om_B8GSnTLb2Kj-21" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v_oWH6om_B8GSnTLb2Kj-78" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;endArrow=diamondThin;endFill=1;" parent="1" source="n6sfb7qWeLQAH36KSjfL-14" target="v_oWH6om_B8GSnTLb2Kj-56" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v_oWH6om_B8GSnTLb2Kj-79" value="&lt;span style=&quot;font-family: Urbanist; font-size: 16px;&quot;&gt;contain&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontStyle=2" parent="v_oWH6om_B8GSnTLb2Kj-78" vertex="1" connectable="0">
+          <mxGeometry x="0.03" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v_oWH6om_B8GSnTLb2Kj-96" value="&lt;span style=&quot;font-family: Urbanist; font-size: 16px;&quot;&gt;1, 1&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="v_oWH6om_B8GSnTLb2Kj-78" vertex="1" connectable="0">
+          <mxGeometry x="0.88" y="-1" relative="1" as="geometry">
+            <mxPoint x="-16" y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v_oWH6om_B8GSnTLb2Kj-97" value="&lt;span style=&quot;font-family: Urbanist; font-size: 16px;&quot;&gt;0, 52&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="v_oWH6om_B8GSnTLb2Kj-78" vertex="1" connectable="0">
+          <mxGeometry x="0.88" y="-1" relative="1" as="geometry">
+            <mxPoint x="133" y="-159" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v_oWH6om_B8GSnTLb2Kj-81" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.478;entryY=1.028;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;startArrow=diamondThin;startFill=1;" parent="1" source="v_oWH6om_B8GSnTLb2Kj-13" target="v_oWH6om_B8GSnTLb2Kj-26" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v_oWH6om_B8GSnTLb2Kj-82" value="&lt;span style=&quot;font-family: Urbanist; font-size: 16px;&quot;&gt;have&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontStyle=2" parent="v_oWH6om_B8GSnTLb2Kj-81" vertex="1" connectable="0">
+          <mxGeometry x="0.1831" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v_oWH6om_B8GSnTLb2Kj-98" value="&lt;span style=&quot;font-family: Urbanist; font-size: 16px;&quot;&gt;1, 1&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="v_oWH6om_B8GSnTLb2Kj-81" vertex="1" connectable="0">
+          <mxGeometry x="-0.7875" y="1" relative="1" as="geometry">
+            <mxPoint x="-21" y="5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v_oWH6om_B8GSnTLb2Kj-99" value="&lt;span style=&quot;font-family: Urbanist; font-size: 16px;&quot;&gt;0, 1&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="v_oWH6om_B8GSnTLb2Kj-81" vertex="1" connectable="0">
+          <mxGeometry x="-0.7875" y="1" relative="1" as="geometry">
+            <mxPoint x="13" y="-177" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v_oWH6om_B8GSnTLb2Kj-93" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="480" y="855" width="620" height="345" as="geometry" />
+        </mxCell>
+        <mxCell id="v_oWH6om_B8GSnTLb2Kj-89" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" parent="v_oWH6om_B8GSnTLb2Kj-93" vertex="1">
+          <mxGeometry y="25" width="620" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="v_oWH6om_B8GSnTLb2Kj-1" value="&lt;font style=&quot;font-size: 20px;&quot; face=&quot;Urbanist&quot;&gt;Suit&lt;/font&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="v_oWH6om_B8GSnTLb2Kj-93" vertex="1">
+          <mxGeometry x="40" y="75" width="240" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="v_oWH6om_B8GSnTLb2Kj-2" value="+ HEARTS: &lt;font face=&quot;JetBrains Mono&quot;&gt;unsigned int&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Urbanist;fontSize=16;" parent="v_oWH6om_B8GSnTLb2Kj-1" vertex="1">
+          <mxGeometry y="40" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="v_oWH6om_B8GSnTLb2Kj-10" value="+ DIAMONDS: &lt;font face=&quot;JetBrains Mono&quot;&gt;unsigned int&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Urbanist;fontSize=16;" parent="v_oWH6om_B8GSnTLb2Kj-1" vertex="1">
+          <mxGeometry y="66" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="v_oWH6om_B8GSnTLb2Kj-11" value="+ CLUBS: &lt;font face=&quot;JetBrains Mono&quot;&gt;unsigned int&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Urbanist;fontSize=16;" parent="v_oWH6om_B8GSnTLb2Kj-1" vertex="1">
+          <mxGeometry y="92" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="v_oWH6om_B8GSnTLb2Kj-12" value="+ SPADES: &lt;font face=&quot;JetBrains Mono&quot;&gt;unsigned int&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Urbanist;fontSize=16;" parent="v_oWH6om_B8GSnTLb2Kj-1" vertex="1">
+          <mxGeometry y="118" width="240" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="v_oWH6om_B8GSnTLb2Kj-27" value="&lt;font style=&quot;font-size: 20px;&quot; face=&quot;Urbanist&quot;&gt;HandRanking&lt;/font&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="v_oWH6om_B8GSnTLb2Kj-93" vertex="1">
+          <mxGeometry x="310" y="76" width="280" height="228" as="geometry" />
+        </mxCell>
+        <mxCell id="v_oWH6om_B8GSnTLb2Kj-28" value="+ Nothing: &lt;font face=&quot;JetBrains Mono&quot;&gt;unsigned int&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Urbanist;fontSize=16;" parent="v_oWH6om_B8GSnTLb2Kj-27" vertex="1">
+          <mxGeometry y="40" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="v_oWH6om_B8GSnTLb2Kj-29" value="+ Pair: &lt;font face=&quot;JetBrains Mono&quot;&gt;unsigned int&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Urbanist;fontSize=16;" parent="v_oWH6om_B8GSnTLb2Kj-27" vertex="1">
+          <mxGeometry y="66" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="v_oWH6om_B8GSnTLb2Kj-30" value="+ Flush: &lt;font face=&quot;JetBrains Mono&quot;&gt;unsigned int&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Urbanist;fontSize=16;" parent="v_oWH6om_B8GSnTLb2Kj-27" vertex="1">
+          <mxGeometry y="92" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="v_oWH6om_B8GSnTLb2Kj-38" value="+ Straight: &lt;font face=&quot;JetBrains Mono&quot;&gt;unsigned int&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Urbanist;fontSize=16;" parent="v_oWH6om_B8GSnTLb2Kj-27" vertex="1">
+          <mxGeometry y="118" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="v_oWH6om_B8GSnTLb2Kj-39" value="+ Three_Of_A_Kind: &lt;font face=&quot;JetBrains Mono&quot;&gt;unsigned int&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Urbanist;fontSize=16;" parent="v_oWH6om_B8GSnTLb2Kj-27" vertex="1">
+          <mxGeometry y="144" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="v_oWH6om_B8GSnTLb2Kj-40" value="+ Straight_Flush: &lt;font face=&quot;JetBrains Mono&quot;&gt;unsigned int&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Urbanist;fontSize=16;" parent="v_oWH6om_B8GSnTLb2Kj-27" vertex="1">
+          <mxGeometry y="170" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="v_oWH6om_B8GSnTLb2Kj-31" value="+ Mini_Royal: &lt;font face=&quot;JetBrains Mono&quot;&gt;unsigned int&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Urbanist;fontSize=16;" parent="v_oWH6om_B8GSnTLb2Kj-27" vertex="1">
+          <mxGeometry y="196" width="280" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="v_oWH6om_B8GSnTLb2Kj-92" value="&lt;span style=&quot;font-family: Urbanist; font-size: 20px; text-wrap: nowrap;&quot;&gt;Enum Classes&lt;/span&gt;" style="whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" parent="v_oWH6om_B8GSnTLb2Kj-93" vertex="1">
+          <mxGeometry x="48" width="152" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
